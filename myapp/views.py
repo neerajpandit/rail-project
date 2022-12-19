@@ -2,9 +2,7 @@ from django.shortcuts import render
 from django.views.generic import ListView
 from .models import Branch,Semester,Paper,Notes,Syllabus,Timetable
 # Create your views here.
-class HomeView(ListView):
-    def get(self,request):
-        return render(request,'myapp/home.html')
+
 
 
 class HomeView(ListView):
