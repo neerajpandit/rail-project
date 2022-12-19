@@ -903,3 +903,15 @@ body {
       padding-top: 4px;
     }
   }
+
+   th{
+    border: 2px black solid;
+    width: 140px;
+    
+  }
+  td{
+    border: 2px black solid;
+  }
+  select  {
+    width: 140px;
+}
